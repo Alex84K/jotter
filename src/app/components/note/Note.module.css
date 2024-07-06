@@ -1,0 +1,35 @@
+.bg {
+    background-color: #1A434E;
+}
+
+.logincontainer {
+    padding: 10px;
+}
+
+.form_my{
+    background-color: #1A434E;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 10px;
+    color: #fff;
+}
+::placeholder {
+    color: #fff;
+    opacity: 0.8; /* Firefox */
+    background-color: #1A434E;
+  }
+  :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+    background-color: #1A434E;
+}
+
+.btnForm{
+    border:none;
+    border-radius: 10px;
+    background-color: #037E8C;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

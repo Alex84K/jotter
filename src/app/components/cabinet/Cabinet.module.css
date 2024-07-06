@@ -1,0 +1,49 @@
+.btn_edit{
+    border:none;
+    border-radius: 10px;
+    background-color: orange;
+    color: #fff;
+    padding: 10px 50px;
+    max-width: 150px;
+}
+
+.formbox {
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.btnForm{
+    border:none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #1A434E;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.form_my{
+    background-color: #1A434E;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 10px;
+    color: #fff;
+}
+::placeholder {
+    color: #fff;
+    opacity: 0.8; /* Firefox */
+    background-color: #1A434E;
+  }
+  :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+    background-color: #1A434E;
+}
+
+
+.btn_remove{
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+}

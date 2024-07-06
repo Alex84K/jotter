@@ -1,0 +1,51 @@
+.h1Header {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 10px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.modal {
+  position: fixed;
+bottom: 0;
+left: 0;
+  width: 350px;
+  height: 100%;
+  background-color: #1A434E;
+  border: 2px solid #1A434E;
+  cursor: pointer;
+}
+
+
+
+.bg{
+  background-color: gray;
+}
+
+.box_icon {
+  padding-top: 25px;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}
+
+.modal_icon {
+  max-width: 35px;
+  margin-bottom: 25px;
+}
+
+.modal :hover {background-color: #1A434E;}
+.modal :active {background-color: #1A434E;}
+.modal :focus {background-color: #1A434E;}
+
+.info_box {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  max-width: 250px;
+  padding: 10px;
+  margin-left: 10px;
+  
+}
